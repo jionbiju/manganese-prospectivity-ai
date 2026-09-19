@@ -6,7 +6,7 @@ import MapView from "../components/map/MapView";
 import { cn } from "../lib/utils";
 
 export default function Dashboard() {
-  const { kpis, alerts, drillTargets, production, prospectivity, loading, error } = useDashboard();
+  const { kpis, alerts, drillTargets, production, prospectivity, occurrences, leases, loading, error } = useDashboard();
 
   if (loading) return <div className="p-8 text-slate-500">Loading dashboard...</div>;
   if (error) return <div className="p-8 text-red-500">Error: {error.message}</div>;
