@@ -1,6 +1,10 @@
 import { useMemo } from "react";
 import Map, { Source, Layer, NavigationControl, ScaleControl } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
+import * as maplibregl from "maplibre-gl";
+import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
+
+maplibregl.setWorkerUrl(workerUrl);
 import { STUDY_AREA } from "../../config";
 
 interface Props {
