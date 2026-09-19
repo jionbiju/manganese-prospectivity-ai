@@ -34,6 +34,7 @@ export default function MapView({
             type: "raster",
             tiles: ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"],
             tileSize: 256,
+            attribution: "Esri"
           }
         },
         layers: [{ id: "satellite", type: "raster", source: "esri-satellite", minzoom: 0, maxzoom: 22 }]
@@ -45,24 +46,26 @@ export default function MapView({
         sources: {
           "osm-terrain": {
             type: "raster",
-            tiles: ["https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg"],
+            tiles: ["https://tile.opentopomap.org/{z}/{x}/{y}.png"],
             tileSize: 256,
+            attribution: "Map data: © OpenStreetMap contributors, SRTM | Map style: © OpenTopoMap (CC-BY-SA)"
           }
         },
-        layers: [{ id: "terrain", type: "raster", source: "osm-terrain", minzoom: 0, maxzoom: 18 }]
+        layers: [{ id: "terrain", type: "raster", source: "osm-terrain", minzoom: 0, maxzoom: 17 }]
       };
     }
-    // Default OSM (Carto Positron for a cleaner look)
+    // Default OSM
     return {
       version: 8,
       sources: {
-        "carto": {
+        "osm": {
           type: "raster",
-          tiles: ["https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"],
+          tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
           tileSize: 256,
+          attribution: "© OpenStreetMap contributors"
         }
       },
-      layers: [{ id: "carto", type: "raster", source: "carto", minzoom: 0, maxzoom: 20 }]
+      layers: [{ id: "osm", type: "raster", source: "osm", minzoom: 0, maxzoom: 19 }]
     };
   }, [basemap]);
 
