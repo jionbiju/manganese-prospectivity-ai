@@ -19,6 +19,7 @@ export interface ProspectivityProperties {
 
 export interface ProspectivityFeature {
   type: "Feature";
+  id?: string;
   geometry: {
     type: "Polygon";
     coordinates: number[][][];
