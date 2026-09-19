@@ -1,0 +1,18 @@
+[
+  {
+    "id": "a1",
+    "severity": "high",
+    "mine": "Tirodi Complex 1",
+    "driver": "Rainfall",
+    "date": "2026-09-15",
+    "message": "Heavy rainfall predicted to halt pit ops."
+  },
+  {
+    "id": "a2",
+    "severity": "medium",
+    "mine": "Tirodi Complex 2",
+    "driver": "Equipment",
+    "date": "2026-09-18",
+    "message": "Excavator EX-04 due for critical maintenance."
+  }
+]

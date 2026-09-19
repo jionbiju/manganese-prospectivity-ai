@@ -1,0 +1,32 @@
+[
+  {
+    "id": "k1",
+    "label": "High-Prospectivity Area",
+    "value": "45.2",
+    "unit": "km²",
+    "trend": 2.1,
+    "status": "good"
+  },
+  {
+    "id": "k2",
+    "label": "Known Mn Occurrences",
+    "value": "24",
+    "trend": 0,
+    "status": "good"
+  },
+  {
+    "id": "k3",
+    "label": "Model Confidence (AUC)",
+    "value": "0.89",
+    "trend": 5.4,
+    "status": "good"
+  },
+  {
+    "id": "k4",
+    "label": "Est. Prod. Shortfall",
+    "value": "2,450",
+    "unit": "t",
+    "trend": -12.5,
+    "status": "critical"
+  }
+]

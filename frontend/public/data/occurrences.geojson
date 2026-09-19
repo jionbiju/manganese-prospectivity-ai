@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.13778973338194,
+          21.691987708956006
+        ]
+      },
+      "properties": {
+        "name": "Occurrence 1",
+        "type": "Known Pit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.168381064618,
+          21.79951244685799
+        ]
+      },
+      "properties": {
+        "name": "Occurrence 2",
+        "type": "Known Pit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.10074879843741,
+          21.797656701225787
+        ]
+      },
+      "properties": {
+        "name": "Occurrence 3",
+        "type": "Known Pit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2036788502708,
+          21.712400315143167
+        ]
+      },
+      "properties": {
+        "name": "Occurrence 4",
+        "type": "Known Pit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.16773839145898,
+          21.79512081295252
+        ]
+      },
+      "properties": {
+        "name": "Occurrence 5",
+        "type": "Known Pit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.11056130342185,
+          21.729203957645222
+        ]
+      },
+      "properties": {
+        "name": "Occurrence 6",
+        "type": "Known Pit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.20216040108353,
+          21.65971088879742
+        ]
+      },
+      "properties": {
+        "name": "Occurrence 7",
+        "type": "Known Pit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0503152852878,
+          21.767949537560344
+        ]
+      },
+      "properties": {
+        "name": "Occurrence 8",
+        "type": "Known Pit"
+      }
+    }
+  ]
+}

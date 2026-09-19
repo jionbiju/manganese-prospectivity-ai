@@ -1,0 +1,9 @@
+{
+  "baseline_tonnes": 120000,
+  "coefficients": {
+    "equipment_availability": 500,
+    "blasting_delay_days": -1200,
+    "rainfall_anomaly": -800,
+    "manpower": 300
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "rank": 3,
+    "lat": 21.61789533100091,
+    "lng": 80.09777389932424,
+    "score": 0.96,
+    "rationale": "High structural complexity intersecting competent lithology."
+  },
+  {
+    "rank": 5,
+    "lat": 21.78538589226082,
+    "lng": 80.19465861595236,
+    "score": 0.94,
+    "rationale": "High structural complexity intersecting competent lithology."
+  },
+  {
+    "rank": 1,
+    "lat": 21.719461283273997,
+    "lng": 80.15375490328297,
+    "score": 0.91,
+    "rationale": "High structural complexity intersecting competent lithology."
+  },
+  {
+    "rank": 2,
+    "lat": 21.689271927624944,
+    "lng": 80.16040811426937,
+    "score": 0.91,
+    "rationale": "High structural complexity intersecting competent lithology."
+  },
+  {
+    "rank": 4,
+    "lat": 21.714494382496923,
+    "lng": 80.17283186498098,
+    "score": 0.9,
+    "rationale": "High structural complexity intersecting competent lithology."
+  }
+]

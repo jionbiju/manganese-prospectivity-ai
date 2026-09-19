@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.05,
+            21.6
+          ],
+          [
+            80.15,
+            21.7
+          ],
+          [
+            80.28,
+            21.75
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Main NE Fault"
+      }
+    }
+  ]
+}

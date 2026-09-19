@@ -1,0 +1,322 @@
+{
+  "mines": [
+    {
+      "id": "m1",
+      "name": "Tirodi Complex 1",
+      "months": [
+        {
+          "month": "Jan",
+          "planned": 10110,
+          "predicted": 9632,
+          "lower": 7706,
+          "upper": 11559
+        },
+        {
+          "month": "Feb",
+          "planned": 9558,
+          "predicted": 9160,
+          "lower": 7328,
+          "upper": 10992
+        },
+        {
+          "month": "Mar",
+          "planned": 10146,
+          "predicted": 9838,
+          "lower": 7870,
+          "upper": 11806
+        },
+        {
+          "month": "Apr",
+          "planned": 10034,
+          "predicted": 9881,
+          "lower": 7905,
+          "upper": 11858
+        },
+        {
+          "month": "May",
+          "planned": 9927,
+          "predicted": 9798,
+          "lower": 7839,
+          "upper": 11758
+        },
+        {
+          "month": "Jun",
+          "planned": 9538,
+          "predicted": 9445,
+          "lower": 7556,
+          "upper": 11334
+        },
+        {
+          "month": "Jul",
+          "planned": 9626,
+          "predicted": 6961,
+          "lower": 5569,
+          "upper": 8354
+        },
+        {
+          "month": "Aug",
+          "planned": 10188,
+          "predicted": 8698,
+          "lower": 6958,
+          "upper": 10437
+        },
+        {
+          "month": "Sep",
+          "planned": 10188,
+          "predicted": 8803,
+          "lower": 7042,
+          "upper": 10563
+        },
+        {
+          "month": "Oct",
+          "planned": 10192,
+          "predicted": 10136,
+          "lower": 8109,
+          "upper": 12164
+        },
+        {
+          "month": "Nov",
+          "planned": 10421,
+          "predicted": 10287,
+          "lower": 8230,
+          "upper": 12345
+        },
+        {
+          "month": "Dec",
+          "planned": 9590,
+          "predicted": 9504,
+          "lower": 7603,
+          "upper": 11405
+        }
+      ],
+      "shortfall_t": 608,
+      "risk": "High",
+      "drivers": [
+        {
+          "factor": "Rainfall Anomaly",
+          "impact": 0.5672488146694377
+        },
+        {
+          "factor": "Equipment Downtime",
+          "impact": 0.2236887289211154
+        },
+        {
+          "factor": "Manpower Shortage",
+          "impact": 0.13327151326229797
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "name": "Tirodi Complex 2",
+      "months": [
+        {
+          "month": "Jan",
+          "planned": 10021,
+          "predicted": 9913,
+          "lower": 7931,
+          "upper": 11896
+        },
+        {
+          "month": "Feb",
+          "planned": 10262,
+          "predicted": 10250,
+          "lower": 8200,
+          "upper": 12300
+        },
+        {
+          "month": "Mar",
+          "planned": 10282,
+          "predicted": 10262,
+          "lower": 8210,
+          "upper": 12315
+        },
+        {
+          "month": "Apr",
+          "planned": 9939,
+          "predicted": 9809,
+          "lower": 7848,
+          "upper": 11771
+        },
+        {
+          "month": "May",
+          "planned": 9580,
+          "predicted": 9484,
+          "lower": 7587,
+          "upper": 11380
+        },
+        {
+          "month": "Jun",
+          "planned": 9598,
+          "predicted": 9192,
+          "lower": 7354,
+          "upper": 11030
+        },
+        {
+          "month": "Jul",
+          "planned": 10183,
+          "predicted": 8435,
+          "lower": 6748,
+          "upper": 10122
+        },
+        {
+          "month": "Aug",
+          "planned": 10057,
+          "predicted": 8885,
+          "lower": 7108,
+          "upper": 10662
+        },
+        {
+          "month": "Sep",
+          "planned": 9760,
+          "predicted": 8014,
+          "lower": 6411,
+          "upper": 9617
+        },
+        {
+          "month": "Oct",
+          "planned": 10211,
+          "predicted": 9748,
+          "lower": 7799,
+          "upper": 11698
+        },
+        {
+          "month": "Nov",
+          "planned": 10210,
+          "predicted": 10019,
+          "lower": 8015,
+          "upper": 12022
+        },
+        {
+          "month": "Dec",
+          "planned": 9992,
+          "predicted": 9934,
+          "lower": 7947,
+          "upper": 11921
+        }
+      ],
+      "shortfall_t": 1155,
+      "risk": "Medium",
+      "drivers": [
+        {
+          "factor": "Rainfall Anomaly",
+          "impact": 0.5464606957510114
+        },
+        {
+          "factor": "Equipment Downtime",
+          "impact": 0.2607945542782545
+        },
+        {
+          "factor": "Manpower Shortage",
+          "impact": 0.08489199290052057
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "name": "Tirodi Complex 3",
+      "months": [
+        {
+          "month": "Jan",
+          "planned": 10449,
+          "predicted": 10012,
+          "lower": 8010,
+          "upper": 12015
+        },
+        {
+          "month": "Feb",
+          "planned": 10165,
+          "predicted": 9967,
+          "lower": 7973,
+          "upper": 11960
+        },
+        {
+          "month": "Mar",
+          "planned": 10463,
+          "predicted": 10154,
+          "lower": 8123,
+          "upper": 12185
+        },
+        {
+          "month": "Apr",
+          "planned": 10188,
+          "predicted": 10180,
+          "lower": 8144,
+          "upper": 12216
+        },
+        {
+          "month": "May",
+          "planned": 10233,
+          "predicted": 9805,
+          "lower": 7844,
+          "upper": 11766
+        },
+        {
+          "month": "Jun",
+          "planned": 10290,
+          "predicted": 10268,
+          "lower": 8214,
+          "upper": 12322
+        },
+        {
+          "month": "Jul",
+          "planned": 9585,
+          "predicted": 7589,
+          "lower": 6071,
+          "upper": 9107
+        },
+        {
+          "month": "Aug",
+          "planned": 9648,
+          "predicted": 8585,
+          "lower": 6868,
+          "upper": 10302
+        },
+        {
+          "month": "Sep",
+          "planned": 10374,
+          "predicted": 8821,
+          "lower": 7057,
+          "upper": 10585
+        },
+        {
+          "month": "Oct",
+          "planned": 9611,
+          "predicted": 9226,
+          "lower": 7381,
+          "upper": 11071
+        },
+        {
+          "month": "Nov",
+          "planned": 10356,
+          "predicted": 9902,
+          "lower": 7922,
+          "upper": 11883
+        },
+        {
+          "month": "Dec",
+          "planned": 10108,
+          "predicted": 9964,
+          "lower": 7972,
+          "upper": 11957
+        }
+      ],
+      "shortfall_t": 1999,
+      "risk": "Low",
+      "drivers": [
+        {
+          "factor": "Rainfall Anomaly",
+          "impact": 0.589107466279529
+        },
+        {
+          "factor": "Equipment Downtime",
+          "impact": 0.22190902172587812
+        },
+        {
+          "factor": "Manpower Shortage",
+          "impact": 0.13359655054518954
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.09035671485123,
+          21.667988004738
+        ]
+      },
+      "properties": {
+        "mine name": "MOIL Lease A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.25782298603094,
+          21.634859138044995
+        ]
+      },
+      "properties": {
+        "mine name": "MOIL Lease B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.10951753695961,
+          21.704698137175292
+        ]
+      },
+      "properties": {
+        "mine name": "MOIL Lease C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.08212007599417,
+          21.75870474852156
+        ]
+      },
+      "properties": {
+        "mine name": "MOIL Lease D"
+      }
+    }
+  ]
+}
