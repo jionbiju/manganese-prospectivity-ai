@@ -169,10 +169,26 @@ export default function MapView({
               "circle-stroke-color": "#ffffff"
             }}
           />
+          <Layer
+            id="occurrences-label"
+            type="symbol"
+            layout={{
+              "text-field": ["get", "name"],
+              "text-variable-anchor": ["top", "bottom", "left", "right"],
+              "text-radial-offset": 0.6,
+              "text-justify": "auto",
+              "text-size": 12
+            }}
+            paint={{
+              "text-color": "#1e3a8a",
+              "text-halo-color": "#ffffff",
+              "text-halo-width": 1.5
+            }}
+          />
         </Source>
       )}
 
-      {/* Leases */}
+      {/* Leases / Manganese Reserves */}
       {visibleLayers.leases && leases && (
         <Source id="leases" type="geojson" data={leases}>
           <Layer
@@ -183,6 +199,23 @@ export default function MapView({
               "circle-radius": 8,
               "circle-stroke-width": 2,
               "circle-stroke-color": "#ffffff"
+            }}
+          />
+          <Layer
+            id="leases-label"
+            type="symbol"
+            layout={{
+              "text-field": ["get", "mine name"],
+              "text-variable-anchor": ["top", "bottom", "left", "right"],
+              "text-radial-offset": 0.8,
+              "text-justify": "auto",
+              "text-size": 13,
+              "text-font": ["Open Sans Bold", "Arial Unicode MS Bold"]
+            }}
+            paint={{
+              "text-color": "#4c1d95",
+              "text-halo-color": "#ffffff",
+              "text-halo-width": 2
             }}
           />
         </Source>

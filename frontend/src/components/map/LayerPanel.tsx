@@ -138,7 +138,7 @@ export default function LayerPanel({
             {[
               { id: "occurrences", label: "Known Mn Occurrences" },
               { id: "faults", label: "Structural Faults" },
-              { id: "leases", label: "MOIL Mine Leases" },
+              { id: "leases", label: "MOIL Manganese Reserves (Leases)" },
               { id: "drillTargets", label: "Suggested Drill Targets" },
             ].map(layer => (
               <label key={layer.id} className="flex items-center justify-between text-sm text-slate-700 cursor-pointer">

@@ -51,7 +51,7 @@ export default function Dashboard() {
         {/* Map Preview */}
         <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
           <div className="p-4 border-b border-slate-100 flex justify-between items-center bg-slate-50">
-            <h2 className="font-semibold text-slate-800">High-Probability Zones</h2>
+            <h2 className="font-semibold text-slate-800">High-Probability Zones & Reserves</h2>
             <Link to="/map" className="text-sm text-brand-600 hover:text-brand-700 flex items-center">
               View Map <ChevronRight className="w-4 h-4 ml-1" />
             </Link>
@@ -59,15 +59,15 @@ export default function Dashboard() {
           <div className="h-64 w-full relative pointer-events-none">
             <MapView
               prospectivity={prospectivity}
-              occurrences={null}
+              occurrences={occurrences}
               faults={null}
-              leases={null}
+              leases={leases}
               drillTargets={null}
               basemap="osm"
               activeModel="p_xgb"
               opacity={0.8}
               threshold={0.7}
-              visibleLayers={{ prospectivity: true }}
+              visibleLayers={{ prospectivity: true, occurrences: true, leases: true }}
               continuousColors={true}
               colorblindSafe={true}
               onCellClick={() => {}}
