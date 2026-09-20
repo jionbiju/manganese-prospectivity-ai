@@ -16,7 +16,7 @@ export default function Sidebar() {
       <div className="flex h-16 items-center px-6 border-b border-slate-800">
         <h1 className="text-lg font-bold text-white tracking-wide flex items-center gap-2">
           <Map className="w-5 h-5 text-accent-500" />
-          MOIL Mn-Sight
+          OreVision
         </h1>
       </div>
       

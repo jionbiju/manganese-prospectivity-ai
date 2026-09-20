@@ -34,7 +34,7 @@ export default function CellDrawer({ isOpen, onClose, feature, shapValues, activ
             </div>
           </div>
           <div className="bg-slate-100 p-3 rounded-md">
-            <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Confidence</div>
+            <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Prospectivity score</div>
             <div className="text-2xl font-bold text-slate-700">
               {(props.confidence * 100).toFixed(0)}%
             </div>
