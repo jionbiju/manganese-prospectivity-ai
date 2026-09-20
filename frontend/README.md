@@ -1,32 +1,31 @@
-# React + TypeScript + Vite
+# OreVision - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The frontend for the OreVision (formerly Mn-Sight) AI/ML decision-support platform for manganese exploration and production-risk planning.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Framework:** React + TypeScript + Vite
+- **Mapping:** MapLibre GL JS + `react-map-gl`
+- **Styling:** Tailwind CSS + Lucide React (Icons)
+- **Charts:** Recharts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Setup
 
-## React Compiler
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Production Build
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+To build the application for production:
+```bash
+npm run build
 ```
+The output will be generated in the `dist` directory.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Map Rendering Note
+The production build is explicitly configured to import the MapLibre web worker to correctly render GeoJSON vector sources. See `src/components/map/MapView.tsx` for the worker configuration.
